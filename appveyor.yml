@@ -13,3 +13,4 @@ build_script:
 - cmd: >-
     dotnet build .\VBR.GitHubUrls\
 test_script:
+- cmd: dotnet test .\VBR.GitHubUrls.Tests\
