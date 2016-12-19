@@ -1,0 +1,33 @@
+{
+  "title": "VBR.GitHubUrls",
+  "description": "resolves API, HTML and RAW Urls for GitHub repositories",
+  "authors": [
+    "v-braun"
+  ],
+  "version": "1.0.0-*",
+  "licenseUrl": "https://github.com/v-braun/gh-urls/blob/master/LICENSE",
+  "projectUrl": "https://github.com/v-braun/gh-urls",
+  "summary": "see here how to use: https://github.com/v-braun/gh-urls",
+  "copyright": "v-braun (v-braun@live.de)",
+  "tags": [
+    "GitHub URLs",
+    "GitHub API",
+    "GitHub RAW"
+  ],  
+  "buildOptions": {
+    
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+
+  "tooling": {
+    "defaultNamespace": "VBR.GitHubUrls"
+  }
+}

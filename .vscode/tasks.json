@@ -1,0 +1,35 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "${workspaceRoot}/VBR.GitHubUrls/project.json",
+                "${workspaceRoot}/VBR.GitHubUrls.Tests/project.json"
+            ],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "test",
+            "suppressTaskName": true,
+            "args" : ["test", "${workspaceRoot}/VBR.GitHubUrls.Tests/project.json"],
+            "isTestCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "restore",
+            "suppressTaskName": true,
+            "args" : [
+                "restore",
+                "${workspaceRoot}/VBR.GitHubUrls/project.json", 
+                "${workspaceRoot}/VBR.GitHubUrls.Tests/project.json"
+            ],
+            "isTestCommand": true,
+            "showOutput": "always"
+        }
+    ]
+}
