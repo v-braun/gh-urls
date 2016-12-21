@@ -5,7 +5,7 @@ By [v-braun - www.dev-things.net](http://www.dev-things.net).
 
 
 [![AppVeyor](https://img.shields.io/appveyor/ci/v-braun/gh-urls.svg?style=flat-square)](https://ci.appveyor.com/project/v-braun/gh-urls)
-[![NuGet](https://img.shields.io/nuget/v/GitHubUrls.svg?style=flat-square)](https://www.nuget.org/packages/VBR.GitHubUrls/)
+[![NuGet](https://img.shields.io/nuget/v/VBR.GitHubUrls.svg?style=flat-square)](https://www.nuget.org/packages/VBR.GitHubUrls/)
 
 
 ## Installation
